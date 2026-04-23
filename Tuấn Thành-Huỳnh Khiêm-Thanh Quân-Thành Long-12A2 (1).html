@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Vợt Cầu Lông Pro</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: lightgray;
+        }
+		 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 
+        3px 3px 8px black,
+        0 0 10px rgba(255,255,255,0.3);}
+		p1 { text-decoration: underline;}
+        header {
+            background:darkslategray;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+			background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-promotional-red-badminton-background-material-image_140709.jpg");
+        }
+
+        nav {
+            background:slategray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+			transition: 0.3s;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+
+        }
+
+        .card img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color:coral;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        button {
+            background:green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: limegreen;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: darkslategray;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SHOP VỢT 3 ANH TÀI</h1>
+        <p>VỢT CHÍNH HÃNG STORE</p>
+    </header>
+
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Vợt Cầu Lông</a>
+        <a href="#">Vợt Tennis</a>
+        <a href="#">Phụ Kiện</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 30px;">Sản phẩm nổi bật</h2>
+        
+        <div class="product-grid">
+            <div class="card">
+                <img src="https://thegioicaulong.vn/wp-content/uploads/2022/09/ax88d-p-193.jpg" alt="Vợt Cầu Lông Yonex Astrox 88D Pro">
+                <h3>Yonex Astrox 88D Pro</h3>
+                <p>Siêu phẩm tấn công, sức mạnh vượt trội.</p>
+                <p class="price">4.500.000 VNĐ</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="card">
+                <img src="https://hvshop.vn/wp-content/uploads/2021/10/Vot-cau-long-victor-jetspeed-s10-hvshop-2.jpg" alt="Vợt Cầu Lông Victor Jetspeed S 10">
+                <h3>Victor Jetspeed S 10</h3>
+                <p>Kiểm soát tốt, phản tạt nhanh nhạy.</p>
+                <p class="price">3.200.000 VNĐ</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2023/04/vot-tennis-wilson-ultra-team-v4-wr108710u2-mau-xanh-blue-6441f76cc73db-21042023093940.jpg" alt="Vợt Tennis Wilson Ultra 100 V4">
+                <h3>Wilson Ultra 100 V4</h3>
+                <p>Lực đánh mạnh, cảm giác bóng tuyệt vời.</p>
+                <p class="price">5.100.000 VNĐ</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="card">
+                <img src="https://sporthouse.vn/images/products/2025/02/08/original/pure%20drive%20lite.jpg" alt="Vợt Tennis Babolat Pure Drive">
+                <h3>Babolat Pure Drive</h3>
+                <p>Tối ưu tốc độ và độ xoáy bóng.</p>
+                <p class="price">4.850.000 VNĐ</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="card">
+                <img src="https://thegioicaulong.vn/wp-content/uploads/2024/04/07-scaled.webp" alt="Vợt Cầu Lông Lining Axforce 90 Max">
+                <h3>Lining Axforce 90 Max</h3>
+                <p>Chắc chắn, linh hoạt cho mọi cú đánh.</p>
+                <p class="price">3.900.000 VNĐ</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+
+            <div class="card">
+                <img src="https://img.tennis-warehouse.com/watermark/rs.php?path=HSPDPL-1.jpg" alt="Vợt Tennis Head Speed Pro">
+                <h3>Head Speed Pro</h3>
+                <p>Kiểm soát cao, cảm giác bóng chính xác.</p>
+                <p class="price">5.300.000 VNĐ</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> HỆ THỐNG CỬA HÀNG CẦU LÔNG UY TÍN</p>
+		<p1> Hotline:19001009 </p1>
+    </footer>
+
+</body>
+</html>
